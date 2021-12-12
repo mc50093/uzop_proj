@@ -273,3 +273,10 @@ n_trees=100, max_depth=1, lr=0.1, i-th fold=2, k-fold f1 score=0.432645961101547
 n_trees=100, max_depth=1, lr=0.1, i-th fold=3, k-fold f1 score=0.49794200553633955 , test f1 score= 0.48359977830756967
 n_trees=100, max_depth=1, lr=0.1, i-th fold=4, k-fold f1 score=0.489498734181628 , test f1 score= 0.4832915753085723
 n_trees=100, max_depth=1, lr=1, i-th fold=0, k-fold f1 score=0.43006572979711116 , test f1 score= 0.43552210419404913
+
+
+n_trees=100, max_depth=3, lr=0.01, i-th fold=0, k-fold f1 score=0.9213912275573322 , test f1 score= 0.9194195934825204
+n_trees=100, max_depth=3, lr=0.01, i-th fold=1, k-fold f1 score=0.886951892126339 , test f1 score= 0.8855316883251583
+n_trees=100, max_depth=3, lr=0.01, i-th fold=2, k-fold f1 score=0.8764781486569431 , test f1 score= 0.8774894647811033
+n_trees=100, max_depth=3, lr=0.01, i-th fold=3, k-fold f1 score=0.9393595037979932 , test f1 score= 0.9374971695682811
+n_trees=100, max_depth=3, lr=0.01, i-th fold=4, k-fold f1 score=0.9466600390874361 , test f1 score= 0.941810155123823
