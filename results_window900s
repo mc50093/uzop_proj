@@ -1,3 +1,5 @@
+!WRONG F1 SCORE METRIC USED! was weighted, should be macro
+
 Logistic regression
 r=1e-07, i-th fold=0, k-fold f1 score=0.8692323024703437 , test f1 score=0.8713965096415549
 r=1e-07, i-th fold=1, k-fold f1 score=0.8544896117317736 , test f1 score=0.8560997536646419
