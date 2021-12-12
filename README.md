@@ -1,4 +1,4 @@
-# uzop_proj
+# Introduction to data science project. Verify results of 3W classification paper and improve performance if possible
 
 To do:
 
