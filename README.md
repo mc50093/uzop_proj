@@ -1,4 +1,4 @@
-# Introduction to data science project. Verify results of 3W classification paper and improve performance if possible
+# Introduction to data science project. Goal: To verify results of 3W classification paper and improve performance if possible
 
 To do:
 
