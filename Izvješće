@@ -1,0 +1,31 @@
+Vrsta istraživanja prema svrsi - Primijenjeno istraživanje, 
+  rezultat zaključka istraživanja primjenjiv je u industriji.
+  
+Vrste istraživanja prema dubini - objašnjavačko/korelacijsko istraživanje,
+  traži se veza između senzorskih očitanja i klase događaja.
+  
+Vrste istraživanja prema vrsti korištenih podataka - Kvantitativno istraživanje,
+  radimo s brojkama
+  
+Vrste istraživanja prema stupnju manipulacije varijablama - Promatračko istraživanje,
+  Koristimo očitanja senzora kako bismo došli do zaključka, ne utječemo na promatrani
+  događaj
+  
+Vrste istraživanja prema vrsti zaključka - induktivno
+
+Vrste istraživanja prema vremenu provedbe - sinkrono istraživanje na višoj razini,
+  longitudinalno istraživanje na nižoj razini. Primjeri su timeseries, ali je vrijeme prikupljanja
+  razlicitih primjera nebitno.
+  
+Vrste istraživanja prema izvoru informacija - sekundarno istraživanje, Koriste se već
+  postojeći podaci prikupljani na naftnim bušotinama.
+  
+Vrste istraživanja prema načinu prikupljanja podataka - terensko istraživanje,
+  podaci se prikupljaju u postrojenju naftne bušotine.
+
+Metoda prikupljanja podataka - Podaci su dobiveni očitanjem senzora na postrojenju naftne
+  bušotine, spremljeni su u obliku CSV datoteke kao slijed podataka uređen po vremenskoj domeni.
+  U svrhu ovog predmeta, podaci se mogu preuzeti s https://www.kaggle.com/afrniomelo/3w-dataset
+  ili https://github.com/ricardovvargas/3w_dataset.
+ 
+Podaci su prikupljeni prema pravilima istraživačke etike 
