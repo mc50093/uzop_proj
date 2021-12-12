@@ -17,4 +17,4 @@ To do:
 
 6. make performance measurents other than f1 score.
 
-7. explain why the model is overperforming compared to paper results.
+7. explain why some models are overperforming compared to paper results.
