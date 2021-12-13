@@ -1,0 +1,361 @@
+Logistic regression
+r=1e-07, i-th fold=0, k-fold f1 score=0.8047541883556656 , test f1 score=0.7990796934788731
+r=1e-07, i-th fold=1, k-fold f1 score=0.8058540577179729 , test f1 score=0.8073778815227014
+r=1e-07, i-th fold=2, k-fold f1 score=0.742562910193144 , test f1 score=0.7349219493745454
+r=1e-07, i-th fold=3, k-fold f1 score=0.8012098212501308 , test f1 score=0.7985853487339533
+r=1e-07, i-th fold=4, k-fold f1 score=0.7915725763796242 , test f1 score=0.7915356732963801
+r=1e-06, i-th fold=0, k-fold f1 score=0.8174144947482217 , test f1 score=0.8227683585700496
+r=1e-06, i-th fold=1, k-fold f1 score=0.8067413989127467 , test f1 score=0.8061119845387972
+r=1e-06, i-th fold=2, k-fold f1 score=0.7869323125998233 , test f1 score=0.7918063016265389
+r=1e-06, i-th fold=3, k-fold f1 score=0.8140869950233424 , test f1 score=0.8168257982342498
+r=1e-06, i-th fold=4, k-fold f1 score=0.7762354895434551 , test f1 score=0.772399262119035
+r=1e-05, i-th fold=0, k-fold f1 score=0.8203108612088139 , test f1 score=0.8152141090688141
+r=1e-05, i-th fold=1, k-fold f1 score=0.8504927052331286 , test f1 score=0.8459915512035003
+r=1e-05, i-th fold=2, k-fold f1 score=0.8596534319683832 , test f1 score=0.856128407145938
+r=1e-05, i-th fold=3, k-fold f1 score=0.8562556327540861 , test f1 score=0.852037065086806
+r=1e-05, i-th fold=4, k-fold f1 score=0.8523767869540987 , test f1 score=0.8522955470890474
+r=0.0001, i-th fold=0, k-fold f1 score=0.835505534239756 , test f1 score=0.8271361229688731
+r=0.0001, i-th fold=1, k-fold f1 score=0.8272359478131464 , test f1 score=0.8199445460484537
+r=0.0001, i-th fold=2, k-fold f1 score=0.8368752101687642 , test f1 score=0.8255448418624522
+r=0.0001, i-th fold=3, k-fold f1 score=0.8215493755057859 , test f1 score=0.8112561558904272
+r=0.0001, i-th fold=4, k-fold f1 score=0.8342734380467691 , test f1 score=0.8240126749750134
+r=0.001, i-th fold=0, k-fold f1 score=0.7902899678975854 , test f1 score=0.7835446127906065
+r=0.001, i-th fold=1, k-fold f1 score=0.784828790642587 , test f1 score=0.7787826486752787
+r=0.001, i-th fold=2, k-fold f1 score=0.7962759459492413 , test f1 score=0.7878446607982375
+r=0.001, i-th fold=3, k-fold f1 score=0.7921519239603583 , test f1 score=0.7804174142935341
+r=0.001, i-th fold=4, k-fold f1 score=0.7893805691692015 , test f1 score=0.7822272836885056
+r=0.01, i-th fold=0, k-fold f1 score=0.7819175301060377 , test f1 score=0.773749950974506
+r=0.01, i-th fold=1, k-fold f1 score=0.7680116842982175 , test f1 score=0.7661314819473272
+r=0.01, i-th fold=2, k-fold f1 score=0.7654603704089267 , test f1 score=0.7584204691842744
+r=0.01, i-th fold=3, k-fold f1 score=0.7747338883414967 , test f1 score=0.7633887048470549
+r=0.01, i-th fold=4, k-fold f1 score=0.77658001094759 , test f1 score=0.7685390794236242
+r=0.1, i-th fold=0, k-fold f1 score=0.6402385509691118 , test f1 score=0.6327023807202831
+r=0.1, i-th fold=1, k-fold f1 score=0.637510909995008 , test f1 score=0.6356269537371642
+r=0.1, i-th fold=2, k-fold f1 score=0.6299929971651792 , test f1 score=0.6285237159104572
+r=0.1, i-th fold=3, k-fold f1 score=0.6283620485344978 , test f1 score=0.6286212087150653
+r=0.1, i-th fold=4, k-fold f1 score=0.6392077325502885 , test f1 score=0.6333463629253273
+[[8.91648084e-01 1.01358200e-04 0.00000000e+00 2.02716400e-03
+  7.70322319e-03 9.85201703e-02 0.00000000e+00 0.00000000e+00]
+ [5.31914894e-03 9.46572104e-01 0.00000000e+00 8.27423168e-04
+  1.18203310e-04 4.71631206e-02 0.00000000e+00 0.00000000e+00]
+ [8.14332248e-02 1.41693811e-01 6.51465798e-03 3.74592834e-02
+  1.30293160e-02 1.12377850e-01 5.76547231e-01 3.09446254e-02]
+ [1.37714525e-01 1.29761406e-02 0.00000000e+00 4.35328589e-01
+  2.78359146e-02 3.84889075e-01 0.00000000e+00 1.25575555e-03]
+ [3.52618243e-01 1.68918919e-02 0.00000000e+00 2.78716216e-02
+  5.90793919e-01 1.14020270e-02 0.00000000e+00 4.22297297e-04]
+ [9.61317503e-02 8.57908847e-03 0.00000000e+00 9.65147453e-03
+  7.65990042e-05 8.84948296e-01 3.82995021e-04 2.29797013e-04]
+ [1.68180289e-04 1.68180289e-03 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 7.23175244e-03 9.90918264e-01 0.00000000e+00]
+ [6.97775840e-03 3.61971217e-02 3.48887920e-03 1.74443960e-03
+  0.00000000e+00 3.86829481e-01 3.87701701e-01 1.77060619e-01]]
+Support vector machine
+r=1e-07, i-th fold=0, k-fold f1 score=0.8385265242215119 , test f1 score=0.8355035336662835
+r=1e-07, i-th fold=1, k-fold f1 score=0.7967158998997057 , test f1 score=0.7944734275344041
+r=1e-07, i-th fold=2, k-fold f1 score=0.8303040067024663 , test f1 score=0.8268052838923683
+r=1e-07, i-th fold=3, k-fold f1 score=0.7717816089448821 , test f1 score=0.77069295138656
+r=1e-07, i-th fold=4, k-fold f1 score=0.8143823446184039 , test f1 score=0.8093157111492402
+r=1e-06, i-th fold=0, k-fold f1 score=0.8350786568270916 , test f1 score=0.8327466194467974
+r=1e-06, i-th fold=1, k-fold f1 score=0.8043786892103377 , test f1 score=0.7999530572805025
+r=1e-06, i-th fold=2, k-fold f1 score=0.736025136330173 , test f1 score=0.7369592536895293
+r=1e-06, i-th fold=3, k-fold f1 score=0.8328617983120432 , test f1 score=0.8308092930846971
+r=1e-06, i-th fold=4, k-fold f1 score=0.828157138672907 , test f1 score=0.8289826096603404
+r=1e-05, i-th fold=0, k-fold f1 score=0.8301755648935814 , test f1 score=0.8269123707091373
+r=1e-05, i-th fold=1, k-fold f1 score=0.8507845075000857 , test f1 score=0.8509735798591069
+r=1e-05, i-th fold=2, k-fold f1 score=0.8516441409743705 , test f1 score=0.847596618619979
+r=1e-05, i-th fold=3, k-fold f1 score=0.8476170803030911 , test f1 score=0.8424888779812091
+r=1e-05, i-th fold=4, k-fold f1 score=0.8513419054712212 , test f1 score=0.8499816122095292
+r=0.0001, i-th fold=0, k-fold f1 score=0.8354234498161333 , test f1 score=0.8282788343478507
+r=0.0001, i-th fold=1, k-fold f1 score=0.8305118580175948 , test f1 score=0.8257770090400067
+r=0.0001, i-th fold=2, k-fold f1 score=0.8377392905717953 , test f1 score=0.8288407104069504
+r=0.0001, i-th fold=3, k-fold f1 score=0.8262956152826673 , test f1 score=0.8121610749309469
+r=0.0001, i-th fold=4, k-fold f1 score=0.8240246226429788 , test f1 score=0.8139424695032824
+r=0.001, i-th fold=0, k-fold f1 score=0.7881221639274858 , test f1 score=0.7806160932700772
+r=0.001, i-th fold=1, k-fold f1 score=0.7854309387405067 , test f1 score=0.7829073393070687
+r=0.001, i-th fold=2, k-fold f1 score=0.7961119967776406 , test f1 score=0.7858198459778418
+r=0.001, i-th fold=3, k-fold f1 score=0.7904736590831827 , test f1 score=0.7783260285960694
+r=0.001, i-th fold=4, k-fold f1 score=0.7855249076027301 , test f1 score=0.7771385557591772
+r=0.01, i-th fold=0, k-fold f1 score=0.7744599497032228 , test f1 score=0.7693815256497338
+r=0.01, i-th fold=1, k-fold f1 score=0.7702125079399071 , test f1 score=0.7669013230363371
+r=0.01, i-th fold=2, k-fold f1 score=0.7887516509314214 , test f1 score=0.7783703043221822
+r=0.01, i-th fold=3, k-fold f1 score=0.7708248865166887 , test f1 score=0.7589554536661708
+r=0.01, i-th fold=4, k-fold f1 score=0.780259635917222 , test f1 score=0.773977662444952
+r=0.1, i-th fold=0, k-fold f1 score=0.6524069024102142 , test f1 score=0.6438731717583387
+r=0.1, i-th fold=1, k-fold f1 score=0.6308725243227131 , test f1 score=0.6316224712826706
+r=0.1, i-th fold=2, k-fold f1 score=0.6409982933931899 , test f1 score=0.6385944437460798
+r=0.1, i-th fold=3, k-fold f1 score=0.6279440382813978 , test f1 score=0.6300666061230578
+r=0.1, i-th fold=4, k-fold f1 score=0.6272711008677261 , test f1 score=0.6204701898609108
+[[8.97121427e-01 0.00000000e+00 0.00000000e+00 2.02716400e-03
+  7.70322319e-03 9.31481857e-02 0.00000000e+00 0.00000000e+00]
+ [7.68321513e-03 9.30732861e-01 0.00000000e+00 8.27423168e-04
+  3.54609929e-04 6.04018913e-02 0.00000000e+00 0.00000000e+00]
+ [8.46905537e-02 1.18892508e-01 1.62866450e-03 4.23452769e-02
+  1.14006515e-02 1.09120521e-01 6.12377850e-01 1.95439739e-02]
+ [1.49853495e-01 9.83675178e-03 0.00000000e+00 4.39933026e-01
+  3.13938887e-02 3.67727082e-01 1.25575555e-03 0.00000000e+00]
+ [3.72888514e-01 2.11148649e-03 0.00000000e+00 2.28040541e-02
+  5.96283784e-01 5.91216216e-03 0.00000000e+00 0.00000000e+00]
+ [9.75871314e-02 7.27690540e-03 0.00000000e+00 1.01876676e-02
+  0.00000000e+00 8.84412103e-01 5.36193029e-04 0.00000000e+00]
+ [3.36360579e-04 8.40901446e-04 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 7.06357215e-03 9.91759166e-01 0.00000000e+00]
+ [1.09027475e-02 3.27082425e-02 1.74443960e-03 2.18054950e-03
+  0.00000000e+00 3.83340602e-01 4.48320977e-01 1.20802442e-01]]
+
+Decision tree
+ccp=0.1, i-th fold=0, k-fold f1 score=0.4196389404267903 , test f1 score=0.41821588865819787
+ccp=0.1, i-th fold=1, k-fold f1 score=0.42652744908194196 , test f1 score=0.42679244716503306
+ccp=0.1, i-th fold=2, k-fold f1 score=0.4174193407039216 , test f1 score=0.4175564786599668
+ccp=0.1, i-th fold=3, k-fold f1 score=0.41838037623749835 , test f1 score=0.4175564786599668
+ccp=0.1, i-th fold=4, k-fold f1 score=0.41564596142251387 , test f1 score=0.41822463190035714
+ccp=0.01, i-th fold=0, k-fold f1 score=0.8881259233278815 , test f1 score=0.8842753590887906
+ccp=0.01, i-th fold=1, k-fold f1 score=0.8881111798220312 , test f1 score=0.8846872706464859
+ccp=0.01, i-th fold=2, k-fold f1 score=0.8811216638949368 , test f1 score=0.8751830231596129
+ccp=0.01, i-th fold=3, k-fold f1 score=0.8779104503939488 , test f1 score=0.8750116531955572
+ccp=0.01, i-th fold=4, k-fold f1 score=0.9106128650599072 , test f1 score=0.9083789853550692
+ccp=0.001, i-th fold=0, k-fold f1 score=0.9652459326389287 , test f1 score=0.9617218842388271
+ccp=0.001, i-th fold=1, k-fold f1 score=0.9634451161210666 , test f1 score=0.9618723241096645
+ccp=0.001, i-th fold=2, k-fold f1 score=0.9637361114742273 , test f1 score=0.9600794862659008
+ccp=0.001, i-th fold=3, k-fold f1 score=0.9605055041402368 , test f1 score=0.9597787903398767
+ccp=0.001, i-th fold=4, k-fold f1 score=0.9605771704543891 , test f1 score=0.9603334152153536
+ccp=0.0001, i-th fold=0, k-fold f1 score=0.9861130393021937 , test f1 score=0.9820868902725163
+ccp=0.0001, i-th fold=1, k-fold f1 score=0.9836767438605312 , test f1 score=0.9799465810767224
+ccp=0.0001, i-th fold=2, k-fold f1 score=0.9846936657297394 , test f1 score=0.9818311012219074
+ccp=0.0001, i-th fold=3, k-fold f1 score=0.9831713428019941 , test f1 score=0.9808838104629671
+ccp=0.0001, i-th fold=4, k-fold f1 score=0.9839868028593299 , test f1 score=0.9800603765367611
+ccp=1e-05, i-th fold=0, k-fold f1 score=0.9909111461672793 , test f1 score=0.9901570808702453
+ccp=1e-05, i-th fold=1, k-fold f1 score=0.9912017173448964 , test f1 score=0.991377533886949
+ccp=1e-05, i-th fold=2, k-fold f1 score=0.9918243308004755 , test f1 score=0.9915422983430449
+ccp=1e-05, i-th fold=3, k-fold f1 score=0.9941706860596448 , test f1 score=0.9936199552193307
+ccp=1e-05, i-th fold=4, k-fold f1 score=0.9922058091957201 , test f1 score=0.9921708891424035
+array([[9.97161970e-01, 2.02716400e-04, 0.00000000e+00, 2.02716400e-04,
+        2.43259680e-03, 0.00000000e+00, 0.00000000e+00, 0.00000000e+00],
+       [8.27423168e-04, 9.98936170e-01, 1.18203310e-04, 1.18203310e-04,
+        0.00000000e+00, 0.00000000e+00, 0.00000000e+00, 0.00000000e+00],
+       [0.00000000e+00, 1.62866450e-03, 9.72312704e-01, 4.88599349e-03,
+        1.62866450e-03, 0.00000000e+00, 4.88599349e-03, 1.46579805e-02],
+       [2.09292591e-04, 6.27877773e-04, 4.18585182e-04, 9.91419004e-01,
+        3.76726664e-03, 3.55797405e-03, 0.00000000e+00, 0.00000000e+00],
+       [1.52027027e-02, 0.00000000e+00, 0.00000000e+00, 5.48986486e-03,
+        9.78040541e-01, 4.22297297e-04, 8.44594595e-04, 0.00000000e+00],
+       [2.29797013e-04, 7.65990042e-05, 0.00000000e+00, 9.19188051e-04,
+        0.00000000e+00, 9.98697817e-01, 7.65990042e-05, 0.00000000e+00],
+       [0.00000000e+00, 0.00000000e+00, 0.00000000e+00, 0.00000000e+00,
+        0.00000000e+00, 1.68180289e-04, 9.99831820e-01, 0.00000000e+00],
+       [0.00000000e+00, 0.00000000e+00, 3.92498910e-03, 8.72219799e-04,
+        0.00000000e+00, 0.00000000e+00, 0.00000000e+00, 9.95202791e-01]])
+
+
+Random forest
+_feats_at_split=5, n_trees=50max depth:5, i-th fold=0, k-fold f1 score=0.8694169433079085 , test f1 score= 0.8651109899276178
+n_feats_at_split=5, n_trees=50max depth:5, i-th fold=1, k-fold f1 score=0.8373654071838348 , test f1 score= 0.8370428994520527
+n_feats_at_split=5, n_trees=50max depth:5, i-th fold=2, k-fold f1 score=0.8807409428913155 , test f1 score= 0.8736215161508993
+n_feats_at_split=5, n_trees=50max depth:5, i-th fold=3, k-fold f1 score=0.8461326438431744 , test f1 score= 0.8353356363731497
+n_feats_at_split=5, n_trees=50max depth:5, i-th fold=4, k-fold f1 score=0.8463162616979619 , test f1 score= 0.8349139793438032
+n_feats_at_split=10, n_trees=50max depth:5, i-th fold=0, k-fold f1 score=0.8801938139456086 , test f1 score= 0.8736931361898669
+n_feats_at_split=10, n_trees=50max depth:5, i-th fold=1, k-fold f1 score=0.8363972009383311 , test f1 score= 0.8365783605314472
+n_feats_at_split=10, n_trees=50max depth:5, i-th fold=2, k-fold f1 score=0.8995719264522449 , test f1 score= 0.8890183358624544
+n_feats_at_split=10, n_trees=50max depth:5, i-th fold=3, k-fold f1 score=0.8851411557762452 , test f1 score= 0.8752119360659969
+n_feats_at_split=10, n_trees=50max depth:5, i-th fold=4, k-fold f1 score=0.846562110150894 , test f1 score= 0.8353559031602444
+n_feats_at_split=15, n_trees=50max depth:5, i-th fold=0, k-fold f1 score=0.8404660425386907 , test f1 score= 0.8343602826797891
+n_feats_at_split=15, n_trees=50max depth:5, i-th fold=1, k-fold f1 score=0.8339754848318068 , test f1 score= 0.8347818455362159
+n_feats_at_split=15, n_trees=50max depth:5, i-th fold=2, k-fold f1 score=0.8809529793454907 , test f1 score= 0.8736248667245003
+n_feats_at_split=15, n_trees=50max depth:5, i-th fold=3, k-fold f1 score=0.8989451890064504 , test f1 score= 0.8923517949404765
+n_feats_at_split=15, n_trees=50max depth:5, i-th fold=4, k-fold f1 score=0.845207264166672 , test f1 score= 0.8344312453356337
+n_feats_at_split=5, n_trees=50max depth:7, i-th fold=0, k-fold f1 score=0.9732980268745131 , test f1 score= 0.9732950155544347
+n_feats_at_split=5, n_trees=50max depth:7, i-th fold=1, k-fold f1 score=0.9753148454511757 , test f1 score= 0.9735488667898322
+n_feats_at_split=5, n_trees=50max depth:7, i-th fold=2, k-fold f1 score=0.9755359145054223 , test f1 score= 0.9717901568102407
+n_feats_at_split=5, n_trees=50max depth:7, i-th fold=3, k-fold f1 score=0.9734275102176579 , test f1 score= 0.9693922028327182
+n_feats_at_split=5, n_trees=50max depth:7, i-th fold=4, k-fold f1 score=0.9752162695315922 , test f1 score= 0.9702252413712369
+n_feats_at_split=10, n_trees=50max depth:7, i-th fold=0, k-fold f1 score=0.9723249173898162 , test f1 score= 0.9727062745619744
+n_feats_at_split=10, n_trees=50max depth:7, i-th fold=1, k-fold f1 score=0.9746603994015709 , test f1 score= 0.9735694605396532
+n_feats_at_split=10, n_trees=50max depth:7, i-th fold=2, k-fold f1 score=0.9756343253601627 , test f1 score= 0.9717194807561391
+n_feats_at_split=10, n_trees=50max depth:7, i-th fold=3, k-fold f1 score=0.9725977655734439 , test f1 score= 0.969092498368445
+n_feats_at_split=10, n_trees=50max depth:7, i-th fold=4, k-fold f1 score=0.9758264765743896 , test f1 score= 0.9705080106465092
+n_feats_at_split=15, n_trees=50max depth:7, i-th fold=0, k-fold f1 score=0.973156979613853 , test f1 score= 0.97242173853272
+n_feats_at_split=15, n_trees=50max depth:7, i-th fold=1, k-fold f1 score=0.9729444314253206 , test f1 score= 0.9718439433493409
+n_feats_at_split=15, n_trees=50max depth:7, i-th fold=2, k-fold f1 score=0.9751023331930772 , test f1 score= 0.9704520240787141
+n_feats_at_split=15, n_trees=50max depth:7, i-th fold=3, k-fold f1 score=0.9738759492333751 , test f1 score= 0.970254778915453
+n_feats_at_split=15, n_trees=50max depth:7, i-th fold=4, k-fold f1 score=0.9764108474309204 , test f1 score= 0.9719508263274887
+n_feats_at_split=5, n_trees=50max depth:10, i-th fold=0, k-fold f1 score=0.9880852103698514 , test f1 score= 0.9875453496010747
+n_feats_at_split=5, n_trees=50max depth:10, i-th fold=1, k-fold f1 score=0.9864715533879557 , test f1 score= 0.9862263964883634
+n_feats_at_split=5, n_trees=50max depth:10, i-th fold=2, k-fold f1 score=0.9870322178890567 , test f1 score= 0.9863585007706517
+n_feats_at_split=5, n_trees=50max depth:10, i-th fold=3, k-fold f1 score=0.9906743818878128 , test f1 score= 0.9879829238842244
+n_feats_at_split=5, n_trees=50max depth:10, i-th fold=4, k-fold f1 score=0.9897205732744393 , test f1 score= 0.9877799123460316
+n_feats_at_split=10, n_trees=50max depth:10, i-th fold=0, k-fold f1 score=0.988286727044498 , test f1 score= 0.9880071631743123
+n_feats_at_split=10, n_trees=50max depth:10, i-th fold=1, k-fold f1 score=0.986166084775544 , test f1 score= 0.9870717502089335
+n_feats_at_split=10, n_trees=50max depth:10, i-th fold=2, k-fold f1 score=0.9880618980464237 , test f1 score= 0.9864117681341699
+n_feats_at_split=10, n_trees=50max depth:10, i-th fold=3, k-fold f1 score=0.9891580755698178 , test f1 score= 0.9862814265841826
+n_feats_at_split=10, n_trees=50max depth:10, i-th fold=4, k-fold f1 score=0.9896364851169108 , test f1 score= 0.9875360467209614
+n_feats_at_split=15, n_trees=50max depth:10, i-th fold=0, k-fold f1 score=0.9877486633861863 , test f1 score= 0.9862574632758524
+n_feats_at_split=15, n_trees=50max depth:10, i-th fold=1, k-fold f1 score=0.9881090997177804 , test f1 score= 0.9874436955397796
+n_feats_at_split=15, n_trees=50max depth:10, i-th fold=2, k-fold f1 score=0.9878331303577497 , test f1 score= 0.9871818276317543
+n_feats_at_split=15, n_trees=50max depth:10, i-th fold=3, k-fold f1 score=0.9903437659053279 , test f1 score= 0.9886860753368654
+n_feats_at_split=15, n_trees=50max depth:10, i-th fold=4, k-fold f1 score=0.9893173992796669 , test f1 score= 0.986404997718336
+n_feats_at_split=5, n_trees=50max depth:None, i-th fold=0, k-fold f1 score=0.9980639767103117 , test f1 score= 0.9985191045142205
+n_feats_at_split=5, n_trees=50max depth:None, i-th fold=1, k-fold f1 score=0.99872045534139 , test f1 score= 0.9982700007643617
+n_feats_at_split=5, n_trees=50max depth:None, i-th fold=2, k-fold f1 score=0.9985547713676683 , test f1 score= 0.9977799240182276
+n_feats_at_split=5, n_trees=50max depth:None, i-th fold=3, k-fold f1 score=0.9984476738054763 , test f1 score= 0.9977238788885823
+n_feats_at_split=5, n_trees=50max depth:None, i-th fold=4, k-fold f1 score=0.9987724207658509 , test f1 score= 0.9984031775694464
+n_feats_at_split=10, n_trees=50max depth:None, i-th fold=0, k-fold f1 score=0.9972009459019091 , test f1 score= 0.9974032969296789
+n_feats_at_split=10, n_trees=50max depth:None, i-th fold=1, k-fold f1 score=0.998221229024087 , test f1 score= 0.9981972825491288
+n_feats_at_split=10, n_trees=50max depth:None, i-th fold=2, k-fold f1 score=0.9978765644567168 , test f1 score= 0.9980381362164786
+n_feats_at_split=10, n_trees=50max depth:None, i-th fold=3, k-fold f1 score=0.9979319043295092 , test f1 score= 0.9981771479011169
+n_feats_at_split=10, n_trees=50max depth:None, i-th fold=4, k-fold f1 score=0.9984620040767128 , test f1 score= 0.9980908716509506
+n_feats_at_split=15, n_trees=50max depth:None, i-th fold=0, k-fold f1 score=0.9970461338581468 , test f1 score= 0.9965560877880083
+n_feats_at_split=15, n_trees=50max depth:None, i-th fold=1, k-fold f1 score=0.997613154530097 , test f1 score= 0.9977573720026788
+n_feats_at_split=15, n_trees=50max depth:None, i-th fold=2, k-fold f1 score=0.9975510249317048 , test f1 score= 0.9978626849853294
+n_feats_at_split=15, n_trees=50max depth:None, i-th fold=3, k-fold f1 score=0.9975857023896211 , test f1 score= 0.9971891524130688
+n_feats_at_split=15, n_trees=50max depth:None, i-th fold=4, k-fold f1 score=0.9980581002564997 , test f1 score= 0.9975197031589036
+n_feats_at_split=5, n_trees=100max depth:5, i-th fold=0, k-fold f1 score=0.8760225279194411 , test f1 score= 0.8688616136851279
+n_feats_at_split=5, n_trees=100max depth:5, i-th fold=1, k-fold f1 score=0.8407384092844965 , test f1 score= 0.83785672802083
+n_feats_at_split=5, n_trees=100max depth:5, i-th fold=2, k-fold f1 score=0.8410805116098876 , test f1 score= 0.835345962972816
+n_feats_at_split=5, n_trees=100max depth:5, i-th fold=3, k-fold f1 score=0.8476825617255526 , test f1 score= 0.8356248449014836
+n_feats_at_split=5, n_trees=100max depth:5, i-th fold=4, k-fold f1 score=0.8449533837873396 , test f1 score= 0.833871598763108
+n_feats_at_split=10, n_trees=100max depth:5, i-th fold=0, k-fold f1 score=0.8444161691179266 , test f1 score= 0.8400301297444104
+n_feats_at_split=10, n_trees=100max depth:5, i-th fold=1, k-fold f1 score=0.8406787933083826 , test f1 score= 0.8375906193200024
+n_feats_at_split=10, n_trees=100max depth:5, i-th fold=2, k-fold f1 score=0.8414253441152039 , test f1 score= 0.8365654887377927
+n_feats_at_split=10, n_trees=100max depth:5, i-th fold=3, k-fold f1 score=0.8469780827316993 , test f1 score= 0.8350606819949142
+n_feats_at_split=10, n_trees=100max depth:5, i-th fold=4, k-fold f1 score=0.8448698714673331 , test f1 score= 0.8334077260589072
+n_feats_at_split=15, n_trees=100max depth:5, i-th fold=0, k-fold f1 score=0.8431921187154028 , test f1 score= 0.838264739547292
+n_feats_at_split=15, n_trees=100max depth:5, i-th fold=1, k-fold f1 score=0.8397518103403346 , test f1 score= 0.8368940488426964
+n_feats_at_split=15, n_trees=100max depth:5, i-th fold=2, k-fold f1 score=0.8417535271381142 , test f1 score= 0.8360728669551408
+n_feats_at_split=15, n_trees=100max depth:5, i-th fold=3, k-fold f1 score=0.8478772678215984 , test f1 score= 0.8356064050307139
+n_feats_at_split=15, n_trees=100max depth:5, i-th fold=4, k-fold f1 score=0.846072238593362 , test f1 score= 0.8346509272476703
+n_feats_at_split=5, n_trees=100max depth:7, i-th fold=0, k-fold f1 score=0.9740533561976578 , test f1 score= 0.9742488690235755
+n_feats_at_split=5, n_trees=100max depth:7, i-th fold=1, k-fold f1 score=0.9746325195426866 , test f1 score= 0.9731003574343335
+n_feats_at_split=5, n_trees=100max depth:7, i-th fold=2, k-fold f1 score=0.9766948837579166 , test f1 score= 0.9720311005407637
+n_feats_at_split=5, n_trees=100max depth:7, i-th fold=3, k-fold f1 score=0.974335627260682 , test f1 score= 0.971048029143958
+n_feats_at_split=5, n_trees=100max depth:7, i-th fold=4, k-fold f1 score=0.9760813548920579 , test f1 score= 0.9718345662322866
+n_feats_at_split=10, n_trees=100max depth:7, i-th fold=0, k-fold f1 score=0.9740453441152851 , test f1 score= 0.9745873242501071
+n_feats_at_split=10, n_trees=100max depth:7, i-th fold=1, k-fold f1 score=0.97504984804603 , test f1 score= 0.9734623447788802
+n_feats_at_split=10, n_trees=100max depth:7, i-th fold=2, k-fold f1 score=0.9763177621844851 , test f1 score= 0.971444774547811
+n_feats_at_split=10, n_trees=100max depth:7, i-th fold=3, k-fold f1 score=0.9737506794908601 , test f1 score= 0.9711739823273474
+n_feats_at_split=10, n_trees=100max depth:7, i-th fold=4, k-fold f1 score=0.9760161194768331 , test f1 score= 0.970987834234531
+n_feats_at_split=15, n_trees=100max depth:7, i-th fold=0, k-fold f1 score=0.9735107225220871 , test f1 score= 0.9732554795959536
+n_feats_at_split=15, n_trees=100max depth:7, i-th fold=1, k-fold f1 score=0.9743258504128514 , test f1 score= 0.9731712473926197
+n_feats_at_split=15, n_trees=100max depth:7, i-th fold=2, k-fold f1 score=0.9758013086335786 , test f1 score= 0.969802909308183
+n_feats_at_split=15, n_trees=100max depth:7, i-th fold=3, k-fold f1 score=0.9748564601608308 , test f1 score= 0.9711202011719104
+n_feats_at_split=15, n_trees=100max depth:7, i-th fold=4, k-fold f1 score=0.9748932925788139 , test f1 score= 0.9707878255029354
+n_feats_at_split=5, n_trees=100max depth:10, i-th fold=0, k-fold f1 score=0.9879273358922984 , test f1 score= 0.9878511589654759
+n_feats_at_split=5, n_trees=100max depth:10, i-th fold=1, k-fold f1 score=0.9872659897012975 , test f1 score= 0.9875174152263456
+n_feats_at_split=5, n_trees=100max depth:10, i-th fold=2, k-fold f1 score=0.9874938205946038 , test f1 score= 0.9872035661012979
+n_feats_at_split=5, n_trees=100max depth:10, i-th fold=3, k-fold f1 score=0.991534908459474 , test f1 score= 0.9894681164783541
+n_feats_at_split=5, n_trees=100max depth:10, i-th fold=4, k-fold f1 score=0.9892316596242989 , test f1 score= 0.9876657747806865
+n_feats_at_split=10, n_trees=100max depth:10, i-th fold=0, k-fold f1 score=0.9883149494630681 , test f1 score= 0.987572430879684
+n_feats_at_split=10, n_trees=100max depth:10, i-th fold=1, k-fold f1 score=0.9868572158865354 , test f1 score= 0.9866577761570554
+n_feats_at_split=10, n_trees=100max depth:10, i-th fold=2, k-fold f1 score=0.9880834247012856 , test f1 score= 0.98713565903585
+n_feats_at_split=10, n_trees=100max depth:10, i-th fold=3, k-fold f1 score=0.9906011127988108 , test f1 score= 0.9880184346803228
+n_feats_at_split=10, n_trees=100max depth:10, i-th fold=4, k-fold f1 score=0.9899503454658924 , test f1 score= 0.9867774327245359
+n_feats_at_split=15, n_trees=100max depth:10, i-th fold=0, k-fold f1 score=0.9871934439792209 , test f1 score= 0.985851076670208
+n_feats_at_split=15, n_trees=100max depth:10, i-th fold=1, k-fold f1 score=0.9887194555393761 , test f1 score= 0.9877174377115688
+n_feats_at_split=15, n_trees=100max depth:10, i-th fold=2, k-fold f1 score=0.988089956717977 , test f1 score= 0.987301528987673
+n_feats_at_split=15, n_trees=100max depth:10, i-th fold=3, k-fold f1 score=0.9912545489346458 , test f1 score= 0.9881093797903433
+n_feats_at_split=15, n_trees=100max depth:10, i-th fold=4, k-fold f1 score=0.988967594765338 , test f1 score= 0.9867346510446082
+n_feats_at_split=5, n_trees=100max depth:None, i-th fold=0, k-fold f1 score=0.9982350144686549 , test f1 score= 0.9984593722732522
+n_feats_at_split=5, n_trees=100max depth:None, i-th fold=1, k-fold f1 score=0.9984569290863343 , test f1 score= 0.9982719544625305
+n_feats_at_split=5, n_trees=100max depth:None, i-th fold=2, k-fold f1 score=0.9987251456535772 , test f1 score= 0.9981893505507444
+n_feats_at_split=5, n_trees=100max depth:None, i-th fold=3, k-fold f1 score=0.9988024714625283 , test f1 score= 0.9980094679963261
+n_feats_at_split=5, n_trees=100max depth:None, i-th fold=4, k-fold f1 score=0.9986259246638581 , test f1 score= 0.9982007040993395
+n_feats_at_split=10, n_trees=100max depth:None, i-th fold=0, k-fold f1 score=0.9971562186043352 , test f1 score= 0.9979488525641951
+n_feats_at_split=10, n_trees=100max depth:None, i-th fold=1, k-fold f1 score=0.9980419721790149 , test f1 score= 0.9982353198766933
+n_feats_at_split=10, n_trees=100max depth:None, i-th fold=2, k-fold f1 score=0.9979608039992705 , test f1 score= 0.9981377687432222
+n_feats_at_split=10, n_trees=100max depth:None, i-th fold=3, k-fold f1 score=0.9981425439833316 , test f1 score= 0.9982793617530078
+n_feats_at_split=10, n_trees=100max depth:None, i-th fold=4, k-fold f1 score=0.998742690679526 , test f1 score= 0.9983613371423133
+n_feats_at_split=15, n_trees=100max depth:None, i-th fold=0, k-fold f1 score=0.9974272997516529 , test f1 score= 0.9972888139397469
+n_feats_at_split=15, n_trees=100max depth:None, i-th fold=1, k-fold f1 score=0.9980829378382041 , test f1 score= 0.997979758950438
+n_feats_at_split=15, n_trees=100max depth:None, i-th fold=2, k-fold f1 score=0.9975898755822808 , test f1 score= 0.9977637995601876
+n_feats_at_split=15, n_trees=100max depth:None, i-th fold=3, k-fold f1 score=0.997580470715433 , test f1 score= 0.9968791910267178
+n_feats_at_split=15, n_trees=100max depth:None, i-th fold=4, k-fold f1 score=0.99785609597637 , test f1 score= 0.9979437772955368
+n_feats_at_split=5, n_trees=150max depth:5, i-th fold=0, k-fold f1 score=0.8453353054537303 , test f1 score= 0.8369705223936481
+n_feats_at_split=5, n_trees=150max depth:5, i-th fold=1, k-fold f1 score=0.8409022462020657 , test f1 score= 0.8358934032854453
+n_feats_at_split=5, n_trees=150max depth:5, i-th fold=2, k-fold f1 score=0.8418910814449658 , test f1 score= 0.8352077809836309
+n_feats_at_split=5, n_trees=150max depth:5, i-th fold=3, k-fold f1 score=0.8452261336722837 , test f1 score= 0.8337373222478814
+n_feats_at_split=5, n_trees=150max depth:5, i-th fold=4, k-fold f1 score=0.8458878468611831 , test f1 score= 0.8340875241444771
+n_feats_at_split=10, n_trees=150max depth:5, i-th fold=0, k-fold f1 score=0.8433522473334463 , test f1 score= 0.8375582348965425
+n_feats_at_split=10, n_trees=150max depth:5, i-th fold=1, k-fold f1 score=0.8404760444727083 , test f1 score= 0.8361284699515794
+n_feats_at_split=10, n_trees=150max depth:5, i-th fold=2, k-fold f1 score=0.8419515473436319 , test f1 score= 0.8357957224896772
+n_feats_at_split=10, n_trees=150max depth:5, i-th fold=3, k-fold f1 score=0.8463176665498364 , test f1 score= 0.8360244049346126
+n_feats_at_split=10, n_trees=150max depth:5, i-th fold=4, k-fold f1 score=0.8463874408390295 , test f1 score= 0.8342303140713808
+n_feats_at_split=15, n_trees=150max depth:5, i-th fold=0, k-fold f1 score=0.841435701201958 , test f1 score= 0.8356448555350054
+n_feats_at_split=15, n_trees=150max depth:5, i-th fold=1, k-fold f1 score=0.8358470844683356 , test f1 score= 0.832959791983152
+n_feats_at_split=15, n_trees=150max depth:5, i-th fold=2, k-fold f1 score=0.8418069960566938 , test f1 score= 0.8359629857025124
+n_feats_at_split=15, n_trees=150max depth:5, i-th fold=3, k-fold f1 score=0.846372935044059 , test f1 score= 0.8346884459889112
+n_feats_at_split=15, n_trees=150max depth:5, i-th fold=4, k-fold f1 score=0.8466128530329715 , test f1 score= 0.8344261715576187
+n_feats_at_split=5, n_trees=150max depth:7, i-th fold=0, k-fold f1 score=0.9733863037502266 , test f1 score= 0.9730631412519858
+n_feats_at_split=5, n_trees=150max depth:7, i-th fold=1, k-fold f1 score=0.9740938135718528 , test f1 score= 0.9726970544724105
+n_feats_at_split=5, n_trees=150max depth:7, i-th fold=2, k-fold f1 score=0.9773197010728191 , test f1 score= 0.9726134731686791
+n_feats_at_split=5, n_trees=150max depth:7, i-th fold=3, k-fold f1 score=0.9741041544278484 , test f1 score= 0.9705545603709822
+n_feats_at_split=5, n_trees=150max depth:7, i-th fold=4, k-fold f1 score=0.9765762266969502 , test f1 score= 0.9719533473770959
+n_feats_at_split=10, n_trees=150max depth:7, i-th fold=0, k-fold f1 score=0.9734668401178017 , test f1 score= 0.9731767488392274
+n_feats_at_split=10, n_trees=150max depth:7, i-th fold=1, k-fold f1 score=0.9751689823666264 , test f1 score= 0.9726582779642896
+n_feats_at_split=10, n_trees=150max depth:7, i-th fold=2, k-fold f1 score=0.9770420972081203 , test f1 score= 0.9730770500564457
+n_feats_at_split=10, n_trees=150max depth:7, i-th fold=3, k-fold f1 score=0.974249039429622 , test f1 score= 0.9704646770732567
+n_feats_at_split=10, n_trees=150max depth:7, i-th fold=4, k-fold f1 score=0.9770877899140145 , test f1 score= 0.9724767186002035
+n_feats_at_split=15, n_trees=150max depth:7, i-th fold=0, k-fold f1 score=0.9730314602081014 , test f1 score= 0.9726960694918118
+n_feats_at_split=15, n_trees=150max depth:7, i-th fold=1, k-fold f1 score=0.9743085901743643 , test f1 score= 0.9726260681880368
+n_feats_at_split=15, n_trees=150max depth:7, i-th fold=2, k-fold f1 score=0.9760611676016513 , test f1 score= 0.9709625409842926
+n_feats_at_split=15, n_trees=150max depth:7, i-th fold=3, k-fold f1 score=0.9744042261581918 , test f1 score= 0.9709059261008004
+n_feats_at_split=15, n_trees=150max depth:7, i-th fold=4, k-fold f1 score=0.9767363483710731 , test f1 score= 0.9715163396073601
+n_feats_at_split=5, n_trees=150max depth:10, i-th fold=0, k-fold f1 score=0.9878421712404671 , test f1 score= 0.9878861468625582
+n_feats_at_split=5, n_trees=150max depth:10, i-th fold=1, k-fold f1 score=0.9875786734935772 , test f1 score= 0.9876371470772287
+n_feats_at_split=5, n_trees=150max depth:10, i-th fold=2, k-fold f1 score=0.9873287989399073 , test f1 score= 0.9871019651686476
+n_feats_at_split=5, n_trees=150max depth:10, i-th fold=3, k-fold f1 score=0.9912991372355847 , test f1 score= 0.9888303541178112
+n_feats_at_split=5, n_trees=150max depth:10, i-th fold=4, k-fold f1 score=0.9887470496297568 , test f1 score= 0.9872635949706388
+n_feats_at_split=10, n_trees=150max depth:10, i-th fold=0, k-fold f1 score=0.9875316549241744 , test f1 score= 0.986952669591765
+n_feats_at_split=10, n_trees=150max depth:10, i-th fold=1, k-fold f1 score=0.9866124986854912 , test f1 score= 0.9872572667295243
+n_feats_at_split=10, n_trees=150max depth:10, i-th fold=2, k-fold f1 score=0.9882043626578669 , test f1 score= 0.9870858567882167
+
+LDA
+i-th fold=0, k-fold f1 score=0.7442726458842939 , test f1 score=0.7384923935744188
+i-th fold=1, k-fold f1 score=0.7410218527191441 , test f1 score=0.7403278166557448
+i-th fold=2, k-fold f1 score=0.7445898726301204 , test f1 score=0.7413249595103957
+i-th fold=3, k-fold f1 score=0.7425930972526632 , test f1 score=0.7407825014805514
+i-th fold=4, k-fold f1 score=0.7311031182813224 , test f1 score=0.7403617276426941
+[[8.16634586e-01 1.11437544e-03 0.00000000e+00 1.21568230e-03
+  2.63397832e-03 1.78401378e-01 0.00000000e+00 0.00000000e+00]
+ [1.89933523e-03 9.80413105e-01 0.00000000e+00 2.49287749e-03
+  4.74833808e-04 1.44824311e-02 0.00000000e+00 2.37416904e-04]
+ [8.41584158e-02 1.65016502e-03 2.16171617e-01 9.90099010e-03
+  0.00000000e+00 8.58085809e-02 5.39603960e-01 6.27062706e-02]
+ [1.04765818e-02 4.49876746e-02 4.93015612e-03 6.39071487e-01
+  3.10188989e-02 2.68898932e-01 0.00000000e+00 6.16269515e-04]
+ [3.78063980e-02 2.03572912e-02 1.66181969e-03 4.15454923e-02
+  7.81470710e-01 1.16742833e-01 0.00000000e+00 4.15454923e-04]
+ [6.38884633e-02 4.06005822e-03 1.22567795e-03 2.73479393e-02
+  3.06419488e-04 9.02405393e-01 4.59629232e-04 3.06419488e-04]
+ [3.39040515e-04 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  3.55992541e-03 8.98457366e-03 9.87116460e-01 0.00000000e+00]
+ [4.88671701e-03 0.00000000e+00 5.59751222e-02 1.28831630e-02
+  4.44247001e-04 3.78054198e-01 1.99022657e-01 3.48733896e-01]]
+
+QDA
+/home/marko/miniconda3/lib/python3.8/site-packages/sklearn/discriminant_analysis.py:873: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+i-th fold=0, k-fold f1 score=0.5509331941687554 , test f1 score=0.546174706428161
+i-th fold=1, k-fold f1 score=0.5353288115663073 , test f1 score=0.5267177127778574
+i-th fold=2, k-fold f1 score=0.5495141111733949 , test f1 score=0.5500167335574209
+i-th fold=3, k-fold f1 score=0.5595451629692996 , test f1 score=0.562215741290408
+i-th fold=4, k-fold f1 score=0.5437172431322601 , test f1 score=0.5436226106608677
+array([[4.66416776e-01, 4.48890690e-01, 4.05227434e-03, 4.35619491e-03,
+        4.55880863e-03, 5.06534292e-04, 7.08134941e-02, 4.05227434e-04],
+       [2.13675214e-03, 9.87773029e-01, 1.18708452e-03, 4.51092118e-03,
+        4.74833808e-04, 1.18708452e-04, 7.12250712e-04, 3.08641975e-03],
+       [0.00000000e+00, 3.16831683e-01, 6.40264026e-01, 1.98019802e-02,
+        0.00000000e+00, 0.00000000e+00, 6.60066007e-03, 1.65016502e-02],
+       [1.43796220e-03, 2.93344289e-01, 1.03533279e-01, 5.18077239e-01,
+        1.74609696e-02, 6.24486442e-02, 0.00000000e+00, 3.69761709e-03],
+       [1.00540091e-01, 6.19027835e-02, 1.16327378e-02, 2.20191109e-02,
+        7.99335272e-01, 2.90818446e-03, 1.66181969e-03, 0.00000000e+00],
+       [5.89857515e-03, 9.30519381e-01, 1.99172667e-03, 2.23686226e-02,
+        9.95863337e-04, 3.15612073e-02, 3.06419488e-03, 3.60042899e-03],
+       [5.08560773e-04, 7.96745211e-03, 1.35616206e-03, 1.69520258e-03,
+        1.52568232e-03, 0.00000000e+00, 9.86607900e-01, 3.39040515e-04],
+       [4.44247001e-04, 3.79386939e-01, 3.12305642e-01, 7.55219902e-03,
+        4.44247001e-04, 6.66370502e-03, 0.00000000e+00, 2.93203021e-01]])
+
+ADABOOST
+n_trees=100, max_depth=1, lr=0.01, i-th fold=0, k-fold f1 score=0.31796218797550563 , test f1 score= 0.314475001591346
+n_trees=100, max_depth=1, lr=0.01, i-th fold=1, k-fold f1 score=0.2192230321324796 , test f1 score= 0.21985286482622649
+
